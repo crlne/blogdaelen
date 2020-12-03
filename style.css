@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+
+body{
+    background-color: #F9F9F9;
+}
+
+.bg-branco{
+    background-color: #fff;
+}
+.titulo{
+    text-align: center;
+    padding: 5rem;
+
+}
+.titulo h1{
+        font-family:'Playfair Display', serif !important;
+        font-weight:400;
+        font-size:35px;
+        letter-spacing: 0.5rem;
+        
+}
+
+.titulo p{
+    color: #FF6347;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.3rem;
+    opacity: 0.8;
+
+}
+
+#navbar{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#banner img{
+    filter:brightness(125%);
+    width:100%;
+
+}
+
+.card{
+    background-color: #fff;
+   /* font-weight: 600; */
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.aviso{
+    padding-left: 36%;
+    float: left;
+
+
+}
+
+.welcome{
+    text-transform: initial;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    font-family:'Playfair Display', serif
+}
+
+.welcome-apst{
+    font-size: 1.2rem;
+
+}
+
+.btn-banner{
+    background-color: #FF6347;
+    border-radius: 5px;
+    border: #FF6347;
+    width: 80%;
+    opacity: 0.9;
+    font-family:'Playfair Display', serif ;
+    text-align: center;
+}
+
+.assine{
+    background: #F9F9F9;
+    padding: 30px 0;
+}
+
+.assine-container{
+    margin: 0 auto;
+}
+
+.assine-container::after, .assine-container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.assine-info{
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-transform: uppercase;
+    width: 400px;
+    margin: 0 10px;
+    text-align: right;
+    padding: 15px;
+}
+
+.form-assine{
+    float: left;
+    margin: 5px;
+    padding: 10px 16px;
+    width: 27%;
+    border: 1px solid #333;
+}
+
+.form-assinetwo{
+    float: left;
+    margin: 5px;
+    padding: 10px 16px;
+    width: 27%;
+    border: 1px solid #333;
+
+}
+
+.botao{
+background-color: #d1ae4e;
+color: #fff;
+margin: 5px;
+width: 27%;
+padding: 10px 16px;
+border: 1px solid #333;
+}
