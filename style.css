@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Average&display=swap');
+
 body {
     background-color: #F9F9F9;
 }
@@ -19,10 +21,12 @@ body {
 }
 
 .titulo h1 {
-    font-family: 'Playfair Display', serif !important;
+    font-family: 'Lora', serif !important;
     font-weight: 400;
     font-size: 35px;
     letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 25px;
 
 }
 
@@ -31,22 +35,6 @@ body {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 1.3rem;
     opacity: 0.8;
-
-}
-
-.navegador{
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    margin-bottom: 10px;
-    text-align: center;
-    width: 100%;
-    padding: 15px;
-    text-transform: uppercase;
-    font-size: 19px;
-}
-
-.navegador a{
-    text-decoration: none;
 
 }
 
@@ -107,54 +95,31 @@ body {
 
 
 /* NAV */
-
-.navbar-brand {
+.navegador{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
     text-align: center;
-    margin: 10px;
-    font-size: 1.4rem;
-    line-height: 1;
-    width: 50%;
-    clear: both;
-    padding: 0;
-    text-transform: uppercase;
-}
-
-
-#contain {
-    height: 100%;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-flow: column;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-}
-
-.inputContainer {
-    position: relative;
-    margin: 24px;
-}
-
-.inputContainer label {
-    font-size: 0.9em;
-    display: block;
-    margin-bottom: 6px;
-    line-height: 0px;
-}
-
-.inputContainer input {
-    margin-top: 6px;
-    height: 30px;
-    width: 300px;
-}
-
-.section-img {
     width: 100%;
-    height: 300px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 19px;
 }
+
+.navegador a{
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: #333;
+    padding: 0 10px;
+    font-family: 'Lora', serif;
+
+
+}
+.navegador a:hover{
+    color: #FF6347;
+}
+
+
 
 #work {
     background-image: url(/img/work.jpg);
@@ -296,11 +261,6 @@ body {
 }
 
 /* Next page */
-
-.next-page{
-
-}
-
 .next-page a{
     font-family: 'Quattrocento Sans', sans-serif;
     color: #000;
@@ -317,14 +277,10 @@ body {
 
 /* footer */
 
-.footer-img img{
-    height: 179px;
-    margin-top: 55px;
-    float: right;
-    overflow: hidden;
-    display: inline-block;
-    
-
+.footer-img{
+    height: 180px;
+    background-image: url(img/footerimg.jpg);
+    background-size: contain;
 }
 
 .form-news{
